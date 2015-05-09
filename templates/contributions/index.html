@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load humanize %}
+{% load staticfiles %}
+
+{% block extra-css %}
+<style type="text/css">
+    /* 
+        You can put some CSS here!
+
+        Or, if you want to get fancy, you can edit the project.css file
+        in the templates/static/css directory.
+    */
+</style>
+<!--
+    If you want to make your own new CSS file, add a link to it here like this:
+        <link rel="stylesheet" href="{% static "css/my-fab-css.css" %}">
+ -->
+{% endblock %}
+
+{% block content %}
+    <div id="d3-content">
+    </div>
+{% endblock %}
